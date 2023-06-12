@@ -1,0 +1,46 @@
+@use "mixin" as *;
+
+html {
+  font-family: var(--ff);
+  color: var(--text);
+  font-size: var(--fz);
+  // height: -webkit-fill-available;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  // min-height: -webkit-fill-available;
+}
+
+.wrapper {
+  position: relative;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.footer {
+  flex-grow: 0;
+}
+
+a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+img {
+  display: inline-block;
+}
+
+.container {
+  max-width: var(--container);
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.row {
+  @include row();
+}

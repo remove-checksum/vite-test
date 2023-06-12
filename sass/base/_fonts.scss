@@ -1,0 +1,36 @@
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/fraunces-v31-latin-regular.woff2") format("woff2"),
+    url("../fonts/fraunces-v31-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/fraunces-v31-latin-600.woff2") format("woff2"),
+    url("../fonts/fraunces-v31-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fraunces-v31-latin-700.woff2") format("woff2"),
+    url("../fonts/fraunces-v31-latin-700.woff") format("woff");
+}
+
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v14-latin-regular.woff2") format("woff2"),
+    url("../fonts/manrope-v14-latin-regular.woff") format("woff");
+}
